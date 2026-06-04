@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Dense, LSTM, SimpleRNN
 import datetime
 
 # Add your API key directly into the code
-TWELVE_API_KEY = 'e1f40d0bd71244fab6c97cc18f637fc1'
+TWELVE_API_KEY = ''
 
 # Function to fetch stock data from Twelve Data
 def get_stock_data(symbol, start_date, end_date, api_key):
